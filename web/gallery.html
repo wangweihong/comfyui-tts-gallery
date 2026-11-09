@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TTS Gallery · 语音图库</title>
+<link rel="stylesheet" href="./static/gallery.css">
+<script type="module" src="./static/gallery.mjs"></script>
+</head>
+<body>
+<header class="topbar"><a class="brand" href="#"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span><span><b data-i18n="brand">语音图库</b><small data-i18n="subtitle">TTS GALLERY</small></span></a><div class="top-actions"><button id="import" class="primary" data-i18n="import">导入音色</button><div class="languages" aria-label="Interface language"><button id="zh">中文</button><button id="en">English</button></div></div></header>
+<main>
+<section class="hero"><div><p class="eyebrow"><span></span><span data-i18n="eyebrow">先试听，再创作</span></p><h1 data-i18n="hero">找到你想要的声音。</h1><p class="intro" data-i18n="intro">把音色、表达指令与生成参数放在一起，让每一次选择都有声音可参考。</p></div><div class="hero-art" aria-hidden="true"><div class="orbit"></div><span class="art-label">VOICE / EXPRESSION</span><div class="hero-wave"></div><span class="art-bottom">BREEZE TTS 2 <i>×</i> DRAMA 3</span></div></section>
+<section class="library" aria-label="Gallery">
+<div class="library-top"><div class="tabs" role="tablist"><button id="examples" role="tab" data-i18n="examples">模型示例</button><button id="voices" role="tab" data-i18n="voices">音色参考</button></div><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" data-placeholder="search" aria-label="Search"></label></div>
+<div id="filters" class="filters"></div>
+<div class="result-bar"><p id="summary"></p><button class="text-button" id="reset" data-i18n="reset">重置筛选</button></div>
+<p id="hint" class="hint"></p><div id="cards" class="cards" role="tabpanel"></div><p id="empty" class="empty" hidden></p>
+</section>
+</main>
+<footer class="player-dock"><div class="player-label"><span class="now-icon" aria-hidden="true">♪</span><div><b id="playing-name" data-i18n="choose">选择一条声音开始试听</b><small id="playing-meta">TTS GALLERY</small></div></div><audio id="player" controls preload="none"></audio><button id="playing-details" class="secondary" data-i18n="details" disabled>查看详情</button></footer>
+<dialog id="detail"><div class="dialog-header"><span class="eyebrow">TTS GALLERY / REFERENCE</span><button class="icon-button close" data-i18n-aria="close">×</button></div><div id="detail-body"></div></dialog>
+<dialog id="editor"><form id="voice-form"><div class="dialog-header"><h2 id="editor-title"></h2><button type="button" class="icon-button close" data-i18n-aria="close">×</button></div><p class="form-help" data-i18n="help"></p><label id="file-field"><span data-i18n="file"></span><input type="file" id="audio-file" accept=".wav,.flac,.mp3,audio/wav,audio/flac,audio/mpeg"></label><div class="form-row"><label><span data-i18n="nameZh"></span><input name="name_zh" maxlength="120" required></label><label><span data-i18n="nameEn"></span><input name="name_en" maxlength="120"></label></div><label><span data-i18n="language"></span><select name="language"><option value="zh" data-i18n="zh"></option><option value="en" data-i18n="en"></option><option value="other" data-i18n="other"></option></select></label><label><span data-i18n="transcript"></span><textarea name="reference_text" rows="4" maxlength="8000" required></textarea></label><label><span data-i18n="description"></span><textarea name="description_zh" rows="2" maxlength="2000"></textarea></label><label><span data-i18n="tagsLabel"></span><input name="tags" maxlength="800"></label><p id="form-error" role="alert"></p><div class="form-footer"><button class="secondary close" type="button" data-i18n="cancel"></button><button class="primary" type="submit" id="save" data-i18n="save"></button></div></form></dialog>
+<div id="toast" role="status" aria-live="polite" hidden></div>
+</body></html>

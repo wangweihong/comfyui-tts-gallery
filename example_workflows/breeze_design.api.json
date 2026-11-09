@@ -1,0 +1,113 @@
+{
+  "1": {
+    "class_type": "PrimitiveStringMultiline",
+    "inputs": {
+      "value": "你好，欢迎体验本地语音生成。今天我们一起，把文字变成自然的声音。"
+    },
+    "_meta": {
+      "title": "PrimitiveStringMultiline - 输入要朗读的文案"
+    }
+  },
+  "2": {
+    "class_type": "PrimitiveInt",
+    "inputs": {
+      "value": 20261022
+    },
+    "_meta": {
+      "title": "PrimitiveInt - 随机种子，固定以便对照"
+    }
+  },
+  "3": {
+    "class_type": "PrimitiveFloat",
+    "inputs": {
+      "value": 0.9
+    },
+    "_meta": {
+      "title": "PrimitiveFloat - 采样温度"
+    }
+  },
+  "10": {
+    "class_type": "BreezeTTS2LoadModel",
+    "inputs": {
+      "model": "int8 hybrid (recommended)",
+      "dtype": "bf16",
+      "device": "cuda",
+      "attention": "sdpa",
+      "decode_mode": "eager",
+      "download_if_missing": false
+    },
+    "_meta": {
+      "title": "BreezeTTS2LoadModel - 加载语音模型"
+    }
+  },
+  "5": {
+    "class_type": "PrimitiveFloat",
+    "inputs": {
+      "value": 4.0
+    },
+    "_meta": {
+      "title": "PrimitiveFloat - 指令强度，克隆建议1，设计或控制建议4"
+    }
+  },
+  "6": {
+    "class_type": "PrimitiveStringMultiline",
+    "inputs": {
+      "value": "一位音色温暖、吐字清晰的年轻女性，用平静自然的语气说话。"
+    },
+    "_meta": {
+      "title": "PrimitiveStringMultiline - 声音设计或表达指令"
+    }
+  },
+  "20": {
+    "class_type": "BreezeTTS2VoiceDesign",
+    "inputs": {
+      "cfg_scale": [
+        "5",
+        0
+      ],
+      "max_new_tokens": 1500,
+      "temperature": [
+        "3",
+        0
+      ],
+      "top_k": 50,
+      "top_p": 1.0,
+      "repetition_penalty": 1.1,
+      "depth_temperature": 0.9,
+      "depth_top_k": 50,
+      "depth_top_p": 1.0,
+      "seed": [
+        "2",
+        0
+      ],
+      "text": [
+        "1",
+        0
+      ],
+      "breeze_model": [
+        "10",
+        0
+      ],
+      "instruction": [
+        "6",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "BreezeTTS2VoiceDesign - 按文案与参数生成语音"
+    }
+  },
+  "30": {
+    "class_type": "SaveAudio",
+    "inputs": {
+      "audio": [
+        "20",
+        0
+      ],
+      "filename_prefix": "audio/breeze-tts-2/tts-gallery/breeze-design-zh-female"
+    },
+    "_meta": {
+      "title": "SaveAudio - 保存最终FLAC语音"
+    }
+  }
+}

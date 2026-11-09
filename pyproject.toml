@@ -1,0 +1,13 @@
+[project]
+name = "comfyui-tts-gallery"
+version = "0.1.0"
+description = "Offline TTS examples and reusable voice references for ComfyUI"
+requires-python = ">=3.10"
+dependencies = ["aiohttp", "av", "numpy", "torch"]
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "TTS Gallery 语音示例与音色参考"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

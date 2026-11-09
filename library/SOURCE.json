@@ -1,0 +1,4298 @@
+{
+  "version": 1,
+  "inventory": [
+    {
+      "source": "local-breeze",
+      "id": "asr_Brian",
+      "category": "asr",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "asr_Lois",
+      "category": "asr",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "asr_Peter",
+      "category": "asr",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "asr_Stewie",
+      "category": "asr",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "asr_T8",
+      "category": "asr",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "asr_Zhenzhen",
+      "category": "asr",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "asr_Zhenzhu",
+      "category": "asr",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "asr_chinese_forced",
+      "category": "asr",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "asr_english_forced",
+      "category": "asr",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "asr_long_chunk0",
+      "category": "asr",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "asr_long_chunk120",
+      "category": "asr",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "asr_long_chunk30",
+      "category": "asr",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "asr_translate_en",
+      "category": "asr",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "asr_五年",
+      "category": "asr",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "auto_clone_zh",
+      "category": "asr_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_auto_cuda_graphs_en_0",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_auto_cuda_graphs_en_1",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_auto_cuda_graphs_en_2",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_auto_cuda_graphs_en_3",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_auto_cuda_graphs_zh_0",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_auto_cuda_graphs_zh_1",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_auto_cuda_graphs_zh_2",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_auto_cuda_graphs_zh_3",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_auto_eager_en_0",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_auto_eager_en_1",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_auto_eager_en_2",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_auto_eager_en_3",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_auto_eager_zh_0",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_auto_eager_zh_1",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_auto_eager_zh_2",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_auto_eager_zh_3",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_eager_cuda_graphs_en_0",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_eager_cuda_graphs_en_1",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_eager_cuda_graphs_en_2",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_eager_cuda_graphs_en_3",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_eager_cuda_graphs_zh_0",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_eager_cuda_graphs_zh_1",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_eager_cuda_graphs_zh_2",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_eager_cuda_graphs_zh_3",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_eager_eager_en_0",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_eager_eager_en_1",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_eager_eager_en_2",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_eager_eager_en_3",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_eager_eager_zh_0",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_eager_eager_zh_1",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_eager_eager_zh_2",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_eager_eager_zh_3",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_flash_attention_cuda_graphs_en_0",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_flash_attention_cuda_graphs_en_1",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_flash_attention_cuda_graphs_en_2",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_flash_attention_cuda_graphs_en_3",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_flash_attention_cuda_graphs_zh_0",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_flash_attention_cuda_graphs_zh_1",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_flash_attention_cuda_graphs_zh_2",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_flash_attention_cuda_graphs_zh_3",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_flash_attention_eager_en_0",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_flash_attention_eager_en_1",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_flash_attention_eager_en_2",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_flash_attention_eager_en_3",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_flash_attention_eager_zh_0",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_flash_attention_eager_zh_1",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_flash_attention_eager_zh_2",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_flash_attention_eager_zh_3",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_sageattention_cuda_graphs_en_0",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_sageattention_cuda_graphs_en_1",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_sageattention_cuda_graphs_en_2",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_sageattention_cuda_graphs_en_3",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_sageattention_cuda_graphs_zh_0",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_sageattention_cuda_graphs_zh_1",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_sageattention_cuda_graphs_zh_2",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_sageattention_cuda_graphs_zh_3",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_sageattention_eager_en_0",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_sageattention_eager_en_1",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_sageattention_eager_en_2",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_sageattention_eager_en_3",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_sageattention_eager_zh_0",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_sageattention_eager_zh_1",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_sageattention_eager_zh_2",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_sageattention_eager_zh_3",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_sdpa_cuda_graphs_en_0",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_sdpa_cuda_graphs_en_1",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_sdpa_cuda_graphs_en_2",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_sdpa_cuda_graphs_en_3",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_sdpa_cuda_graphs_zh_0",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_sdpa_cuda_graphs_zh_1",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_sdpa_cuda_graphs_zh_2",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_sdpa_cuda_graphs_zh_3",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_sdpa_eager_en_0",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_sdpa_eager_en_1",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_sdpa_eager_en_2",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_sdpa_eager_en_3",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_sdpa_eager_zh_0",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_sdpa_eager_zh_1",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_sdpa_eager_zh_2",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "backend_sdpa_eager_zh_3",
+      "category": "backend",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bad_json",
+      "category": "negative",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_bf16_cuda_graphs_en_0",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_bf16_cuda_graphs_en_1",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_bf16_cuda_graphs_en_2",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_bf16_cuda_graphs_en_3",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_bf16_cuda_graphs_zh_0",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_bf16_cuda_graphs_zh_1",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_bf16_cuda_graphs_zh_2",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_bf16_cuda_graphs_zh_3",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_bf16_eager_en_0",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_bf16_eager_en_1",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_bf16_eager_en_2",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_bf16_eager_en_3",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_bf16_eager_zh_0",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_bf16_eager_zh_1",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_bf16_eager_zh_2",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_bf16_eager_zh_3",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_bf16_cuda_graphs_en_0",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_bf16_cuda_graphs_en_1",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_bf16_cuda_graphs_en_2",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_bf16_cuda_graphs_en_3",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_bf16_cuda_graphs_zh_0",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_bf16_cuda_graphs_zh_1",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_bf16_cuda_graphs_zh_2",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_bf16_cuda_graphs_zh_3",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_bf16_eager_en_0",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_bf16_eager_en_1",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_bf16_eager_en_2",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_bf16_eager_en_3",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_bf16_eager_zh_0",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_bf16_eager_zh_1",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_bf16_eager_zh_2",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_bf16_eager_zh_3",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_hybrid_cuda_graphs_en_0",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_hybrid_cuda_graphs_en_1",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_hybrid_cuda_graphs_en_2",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_hybrid_cuda_graphs_en_3",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_hybrid_cuda_graphs_zh_0",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_hybrid_cuda_graphs_zh_1",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_hybrid_cuda_graphs_zh_2",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_hybrid_cuda_graphs_zh_3",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_hybrid_eager_en_0",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_hybrid_eager_en_1",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_hybrid_eager_en_2",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_hybrid_eager_en_3",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_hybrid_eager_zh_0",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_hybrid_eager_zh_1",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_hybrid_eager_zh_2",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_hybrid_eager_zh_3",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_int8_cuda_graphs_en_0",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_int8_cuda_graphs_en_1",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_int8_cuda_graphs_en_2",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_int8_cuda_graphs_en_3",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_int8_cuda_graphs_zh_0",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_int8_cuda_graphs_zh_1",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_int8_cuda_graphs_zh_2",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_int8_cuda_graphs_zh_3",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_int8_eager_en_0",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_int8_eager_en_1",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_int8_eager_en_2",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_int8_eager_en_3",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_int8_eager_zh_0",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_int8_eager_zh_1",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_int8_eager_zh_2",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_int8_eager_zh_3",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_te_int8_cuda_graphs_en_0",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_te_int8_cuda_graphs_en_1",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_te_int8_cuda_graphs_en_2",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_te_int8_cuda_graphs_en_3",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_te_int8_cuda_graphs_zh_0",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_te_int8_cuda_graphs_zh_1",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_te_int8_cuda_graphs_zh_2",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_te_int8_cuda_graphs_zh_3",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_te_int8_eager_en_0",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_te_int8_eager_en_1",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_te_int8_eager_en_2",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_te_int8_eager_en_3",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_te_int8_eager_zh_0",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_te_int8_eager_zh_1",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_te_int8_eager_zh_2",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_clone_te_int8_eager_zh_3",
+      "category": "benchmark_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_hybrid_cuda_graphs_en_0",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_hybrid_cuda_graphs_en_1",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_hybrid_cuda_graphs_en_2",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_hybrid_cuda_graphs_en_3",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_hybrid_cuda_graphs_zh_0",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_hybrid_cuda_graphs_zh_1",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_hybrid_cuda_graphs_zh_2",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_hybrid_cuda_graphs_zh_3",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_hybrid_eager_en_0",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_hybrid_eager_en_1",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_hybrid_eager_en_2",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_hybrid_eager_en_3",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_hybrid_eager_zh_0",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_hybrid_eager_zh_1",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_hybrid_eager_zh_2",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_hybrid_eager_zh_3",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_int8_cuda_graphs_en_0",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_int8_cuda_graphs_en_1",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_int8_cuda_graphs_en_2",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_int8_cuda_graphs_en_3",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_int8_cuda_graphs_zh_0",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_int8_cuda_graphs_zh_1",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_int8_cuda_graphs_zh_2",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_int8_cuda_graphs_zh_3",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_int8_eager_en_0",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_int8_eager_en_1",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_int8_eager_en_2",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_int8_eager_en_3",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_int8_eager_zh_0",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_int8_eager_zh_1",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_int8_eager_zh_2",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_int8_eager_zh_3",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_te_int8_cuda_graphs_en_0",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_te_int8_cuda_graphs_en_1",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_te_int8_cuda_graphs_en_2",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_te_int8_cuda_graphs_en_3",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_te_int8_cuda_graphs_zh_0",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_te_int8_cuda_graphs_zh_1",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_te_int8_cuda_graphs_zh_2",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_te_int8_cuda_graphs_zh_3",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_te_int8_eager_en_0",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_te_int8_eager_en_1",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_te_int8_eager_en_2",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_te_int8_eager_en_3",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_te_int8_eager_zh_0",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_te_int8_eager_zh_1",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_te_int8_eager_zh_2",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "bench_te_int8_eager_zh_3",
+      "category": "benchmark",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "changed_seed",
+      "category": "reproducibility",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "clone_Brian",
+      "category": "clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "clone_Lois",
+      "category": "clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "clone_Peter",
+      "category": "clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "clone_Stewie",
+      "category": "clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "clone_T8",
+      "category": "clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "clone_Zhenzhen",
+      "category": "experimental_reference",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "clone_Zhenzhu",
+      "category": "clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "clone_五年",
+      "category": "clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "context_exhaustion",
+      "category": "negative",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "corrupt_audio",
+      "category": "negative",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "cross_en",
+      "category": "cross_language",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "cross_zh",
+      "category": "cross_language",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "daily_01",
+      "category": "daily",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "daily_02",
+      "category": "daily",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "daily_03",
+      "category": "daily",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "daily_04",
+      "category": "daily",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "daily_05",
+      "category": "daily",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "daily_06",
+      "category": "daily",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "daily_07",
+      "category": "daily",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "daily_08",
+      "category": "daily",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "daily_09",
+      "category": "daily",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "daily_10",
+      "category": "daily",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "daily_11",
+      "category": "daily",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "daily_12",
+      "category": "daily",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "daily_13",
+      "category": "daily",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "daily_14",
+      "category": "daily",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "daily_15",
+      "category": "daily",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "daily_16",
+      "category": "daily",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "daily_17",
+      "category": "daily",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "daily_18",
+      "category": "daily",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "daily_19",
+      "category": "daily",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "daily_20",
+      "category": "daily",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "daily_21",
+      "category": "daily",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "design_en_female",
+      "category": "design",
+      "disposition": "included: breeze-design-en-female"
+    },
+    {
+      "source": "local-breeze",
+      "id": "design_en_male",
+      "category": "design",
+      "disposition": "included: breeze-design-en-male"
+    },
+    {
+      "source": "local-breeze",
+      "id": "design_lively_en",
+      "category": "design",
+      "disposition": "included: breeze-design-lively-en"
+    },
+    {
+      "source": "local-breeze",
+      "id": "design_lively_zh",
+      "category": "design",
+      "disposition": "included: breeze-design-lively-zh"
+    },
+    {
+      "source": "local-breeze",
+      "id": "design_zh_female",
+      "category": "design",
+      "disposition": "included: breeze-design-zh-female"
+    },
+    {
+      "source": "local-breeze",
+      "id": "design_zh_male",
+      "category": "design",
+      "disposition": "included: breeze-design-zh-male"
+    },
+    {
+      "source": "local-breeze",
+      "id": "direction_en_0",
+      "category": "direction",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "direction_en_1",
+      "category": "direction",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "direction_en_2",
+      "category": "direction",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "direction_zh_0",
+      "category": "direction",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "direction_zh_1",
+      "category": "direction",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "direction_zh_2",
+      "category": "direction",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "duplicate_speaker",
+      "category": "negative",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "empty_audio",
+      "category": "negative",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "empty_text",
+      "category": "negative",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_auto_clone_zh_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_auto_cuda_graphs_en_0_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_auto_cuda_graphs_en_1_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_auto_cuda_graphs_en_2_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_auto_cuda_graphs_en_3_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_auto_cuda_graphs_zh_0_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_auto_cuda_graphs_zh_1_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_auto_cuda_graphs_zh_2_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_auto_cuda_graphs_zh_3_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_auto_eager_en_0_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_auto_eager_en_1_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_auto_eager_en_2_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_auto_eager_en_3_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_auto_eager_zh_0_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_auto_eager_zh_1_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_auto_eager_zh_2_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_auto_eager_zh_3_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_eager_cuda_graphs_en_0_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_eager_cuda_graphs_en_1_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_eager_cuda_graphs_en_2_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_eager_cuda_graphs_en_3_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_eager_cuda_graphs_zh_0_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_eager_cuda_graphs_zh_1_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_eager_cuda_graphs_zh_2_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_eager_cuda_graphs_zh_3_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_eager_eager_en_0_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_eager_eager_en_1_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_eager_eager_en_2_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_eager_eager_en_3_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_eager_eager_zh_0_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_eager_eager_zh_1_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_eager_eager_zh_2_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_eager_eager_zh_3_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_flash_attention_cuda_graphs_en_0_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_flash_attention_cuda_graphs_en_1_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_flash_attention_cuda_graphs_en_2_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_flash_attention_cuda_graphs_en_3_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_flash_attention_cuda_graphs_zh_0_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_flash_attention_cuda_graphs_zh_1_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_flash_attention_cuda_graphs_zh_2_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_flash_attention_cuda_graphs_zh_3_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_flash_attention_eager_en_0_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_flash_attention_eager_en_1_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_flash_attention_eager_en_2_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_flash_attention_eager_en_3_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_flash_attention_eager_zh_0_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_flash_attention_eager_zh_1_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_flash_attention_eager_zh_2_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_flash_attention_eager_zh_3_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_sageattention_cuda_graphs_en_0_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_sageattention_cuda_graphs_en_1_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_sageattention_cuda_graphs_en_2_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_sageattention_cuda_graphs_en_3_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_sageattention_cuda_graphs_zh_0_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_sageattention_cuda_graphs_zh_1_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_sageattention_cuda_graphs_zh_2_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_sageattention_cuda_graphs_zh_3_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_sageattention_eager_en_0_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_sageattention_eager_en_1_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_sageattention_eager_en_2_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_sageattention_eager_en_3_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_sageattention_eager_zh_0_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_sageattention_eager_zh_1_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_sageattention_eager_zh_2_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_sageattention_eager_zh_3_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_sdpa_cuda_graphs_en_0_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_sdpa_cuda_graphs_en_1_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_sdpa_cuda_graphs_en_2_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_sdpa_cuda_graphs_en_3_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_sdpa_cuda_graphs_zh_0_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_sdpa_cuda_graphs_zh_1_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_sdpa_cuda_graphs_zh_2_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_sdpa_cuda_graphs_zh_3_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_sdpa_eager_en_0_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_sdpa_eager_en_1_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_sdpa_eager_en_2_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_sdpa_eager_en_3_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_sdpa_eager_zh_0_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_sdpa_eager_zh_1_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_sdpa_eager_zh_2_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_backend_sdpa_eager_zh_3_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_bf16_cuda_graphs_en_0_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_bf16_cuda_graphs_en_1_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_bf16_cuda_graphs_en_2_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_bf16_cuda_graphs_en_3_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_bf16_cuda_graphs_zh_0_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_bf16_cuda_graphs_zh_1_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_bf16_cuda_graphs_zh_2_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_bf16_cuda_graphs_zh_3_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_bf16_eager_en_0_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_bf16_eager_en_1_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_bf16_eager_en_2_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_bf16_eager_en_3_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_bf16_eager_zh_0_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_bf16_eager_zh_1_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_bf16_eager_zh_2_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_bf16_eager_zh_3_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_bf16_cuda_graphs_en_0_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_bf16_cuda_graphs_en_1_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_bf16_cuda_graphs_en_2_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_bf16_cuda_graphs_en_3_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_bf16_cuda_graphs_zh_0_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_bf16_cuda_graphs_zh_1_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_bf16_cuda_graphs_zh_2_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_bf16_cuda_graphs_zh_3_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_bf16_eager_en_0_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_bf16_eager_en_1_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_bf16_eager_en_2_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_bf16_eager_en_3_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_bf16_eager_zh_0_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_bf16_eager_zh_1_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_bf16_eager_zh_2_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_bf16_eager_zh_3_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_hybrid_cuda_graphs_en_0_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_hybrid_cuda_graphs_en_1_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_hybrid_cuda_graphs_en_2_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_hybrid_cuda_graphs_en_3_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_hybrid_cuda_graphs_zh_0_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_hybrid_cuda_graphs_zh_1_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_hybrid_cuda_graphs_zh_2_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_hybrid_cuda_graphs_zh_3_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_hybrid_eager_en_0_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_hybrid_eager_en_1_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_hybrid_eager_en_2_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_hybrid_eager_en_3_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_hybrid_eager_zh_0_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_hybrid_eager_zh_1_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_hybrid_eager_zh_2_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_hybrid_eager_zh_3_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_int8_cuda_graphs_en_0_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_int8_cuda_graphs_en_1_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_int8_cuda_graphs_en_2_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_int8_cuda_graphs_en_3_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_int8_cuda_graphs_zh_0_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_int8_cuda_graphs_zh_1_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_int8_cuda_graphs_zh_2_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_int8_cuda_graphs_zh_3_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_int8_eager_en_0_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_int8_eager_en_1_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_int8_eager_en_2_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_int8_eager_en_3_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_int8_eager_zh_0_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_int8_eager_zh_1_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_int8_eager_zh_2_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_int8_eager_zh_3_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_te_int8_cuda_graphs_en_0_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_te_int8_cuda_graphs_en_1_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_te_int8_cuda_graphs_en_2_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_te_int8_cuda_graphs_en_3_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_te_int8_cuda_graphs_zh_0_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_te_int8_cuda_graphs_zh_1_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_te_int8_cuda_graphs_zh_2_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_te_int8_cuda_graphs_zh_3_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_te_int8_eager_en_0_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_te_int8_eager_en_1_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_te_int8_eager_en_2_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_te_int8_eager_en_3_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_te_int8_eager_zh_0_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_te_int8_eager_zh_1_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_te_int8_eager_zh_2_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_clone_te_int8_eager_zh_3_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_hybrid_cuda_graphs_en_0_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_hybrid_cuda_graphs_en_1_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_hybrid_cuda_graphs_en_2_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_hybrid_cuda_graphs_en_3_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_hybrid_cuda_graphs_zh_0_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_hybrid_cuda_graphs_zh_1_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_hybrid_cuda_graphs_zh_2_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_hybrid_cuda_graphs_zh_3_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_hybrid_eager_en_0_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_hybrid_eager_en_1_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_hybrid_eager_en_2_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_hybrid_eager_en_3_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_hybrid_eager_zh_0_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_hybrid_eager_zh_1_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_hybrid_eager_zh_2_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_hybrid_eager_zh_3_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_int8_cuda_graphs_en_0_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_int8_cuda_graphs_en_1_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_int8_cuda_graphs_en_2_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_int8_cuda_graphs_en_3_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_int8_cuda_graphs_zh_0_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_int8_cuda_graphs_zh_1_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_int8_cuda_graphs_zh_2_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_int8_cuda_graphs_zh_3_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_int8_eager_en_0_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_int8_eager_en_1_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_int8_eager_en_2_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_int8_eager_en_3_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_int8_eager_zh_0_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_int8_eager_zh_1_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_int8_eager_zh_2_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_int8_eager_zh_3_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_te_int8_cuda_graphs_en_0_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_te_int8_cuda_graphs_en_1_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_te_int8_cuda_graphs_en_2_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_te_int8_cuda_graphs_en_3_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_te_int8_cuda_graphs_zh_0_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_te_int8_cuda_graphs_zh_1_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_te_int8_cuda_graphs_zh_2_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_te_int8_cuda_graphs_zh_3_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_te_int8_eager_en_0_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_te_int8_eager_en_1_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_te_int8_eager_en_2_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_te_int8_eager_en_3_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_te_int8_eager_zh_0_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_te_int8_eager_zh_1_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_te_int8_eager_zh_2_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_bench_te_int8_eager_zh_3_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_changed_seed_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_clone_Brian_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_clone_Lois_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_clone_Peter_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_clone_Stewie_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_clone_T8_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_clone_Zhenzhen_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_clone_Zhenzhu_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_clone_五年_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_cross_en_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_cross_zh_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_daily_01_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_daily_02_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_daily_03_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_daily_04_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_daily_05_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_daily_06_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_daily_07_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_daily_08_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_daily_09_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_daily_10_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_daily_11_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_daily_12_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_daily_13_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_daily_14_7_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_daily_15_11_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_daily_16_4_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_daily_17_4_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_daily_18_4_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_daily_19_12_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_daily_19_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_daily_19_6_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_daily_19_9_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_daily_20_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_daily_21_11_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_design_en_female_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_design_en_male_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_design_lively_en_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_design_lively_zh_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_design_zh_female_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_design_zh_male_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_direction_en_0_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_direction_en_1_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_direction_en_2_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_direction_zh_0_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_direction_zh_1_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_direction_zh_2_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_event_en_0_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_event_en_1_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_event_en_2_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_event_en_3_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_event_en_4_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_event_zh_0_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_event_zh_1_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_event_zh_2_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_event_zh_3_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_event_zh_4_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_export_mp3_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_export_opus_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_long_en_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_long_zh_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_model_clone_bf16_cuda_graphs_en_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_model_clone_bf16_cuda_graphs_zh_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_model_clone_bf16_eager_en_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_model_clone_bf16_eager_zh_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_model_clone_hybrid_cuda_graphs_en_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_model_clone_hybrid_cuda_graphs_zh_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_model_clone_hybrid_eager_en_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_model_clone_hybrid_eager_zh_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_model_clone_int8_cuda_graphs_en_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_model_clone_int8_cuda_graphs_zh_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_model_clone_int8_eager_en_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_model_clone_int8_eager_zh_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_model_clone_te_int8_cuda_graphs_en_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_model_clone_te_int8_cuda_graphs_zh_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_model_clone_te_int8_eager_en_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_model_clone_te_int8_eager_zh_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_multi_eight_clone_11_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_multi_eight_supported_11_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_multi_four_mixed_7_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_multi_one_4_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_multi_pause_0_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_multi_pause_1_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_multi_two_clone_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_multi_two_design_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_recovery_after_error_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_reload_after_free_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_same_seed_a_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_same_seed_b_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_script_bracket_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_script_continuation_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_script_external_string_4_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_script_json_object_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_script_json_wrapper_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_script_markdown_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_script_name_matching_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_smoke_clone_en_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_smoke_clone_zh_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_smoke_design_zh_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_speaker_auto_transcribe_4_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_speaker_ui_upload_clone_4_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_speaker_wired_priority_4_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_stitch_en_after_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_stitch_en_before_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_stitch_zh_after_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_stitch_zh_before_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_text_abbreviation_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_text_mixed_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_text_multisentence_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_text_numbers_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_text_punctuation_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_ui_01_3_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_ui_05_5_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "eval_ui_14_7_0",
+      "category": "asr_eval",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "event_en_0",
+      "category": "vocal_event",
+      "disposition": "included: breeze-event-en-0"
+    },
+    {
+      "source": "local-breeze",
+      "id": "event_en_1",
+      "category": "vocal_event",
+      "disposition": "included: breeze-event-en-1"
+    },
+    {
+      "source": "local-breeze",
+      "id": "event_en_2",
+      "category": "vocal_event",
+      "disposition": "included: breeze-event-en-2"
+    },
+    {
+      "source": "local-breeze",
+      "id": "event_en_3",
+      "category": "vocal_event",
+      "disposition": "included: breeze-event-en-3"
+    },
+    {
+      "source": "local-breeze",
+      "id": "event_en_4",
+      "category": "vocal_event",
+      "disposition": "included: breeze-event-en-4"
+    },
+    {
+      "source": "local-breeze",
+      "id": "event_zh_0",
+      "category": "vocal_event",
+      "disposition": "included: breeze-event-zh-0"
+    },
+    {
+      "source": "local-breeze",
+      "id": "event_zh_1",
+      "category": "vocal_event",
+      "disposition": "included: breeze-event-zh-1"
+    },
+    {
+      "source": "local-breeze",
+      "id": "event_zh_2",
+      "category": "vocal_event",
+      "disposition": "included: breeze-event-zh-2"
+    },
+    {
+      "source": "local-breeze",
+      "id": "event_zh_3",
+      "category": "vocal_event",
+      "disposition": "included: breeze-event-zh-3"
+    },
+    {
+      "source": "local-breeze",
+      "id": "event_zh_4",
+      "category": "vocal_event",
+      "disposition": "included: breeze-event-zh-4"
+    },
+    {
+      "source": "local-breeze",
+      "id": "export_mp3",
+      "category": "export",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "export_opus",
+      "category": "export",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "long_en",
+      "category": "long_text",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "long_zh",
+      "category": "long_text",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "missing_file",
+      "category": "negative",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "missing_transcript",
+      "category": "negative",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "model_clone_bf16_cuda_graphs_en",
+      "category": "model_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "model_clone_bf16_cuda_graphs_zh",
+      "category": "model_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "model_clone_bf16_eager_en",
+      "category": "model_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "model_clone_bf16_eager_zh",
+      "category": "model_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "model_clone_hybrid_cuda_graphs_en",
+      "category": "model_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "model_clone_hybrid_cuda_graphs_zh",
+      "category": "model_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "model_clone_hybrid_eager_en",
+      "category": "model_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "model_clone_hybrid_eager_zh",
+      "category": "model_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "model_clone_int8_cuda_graphs_en",
+      "category": "model_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "model_clone_int8_cuda_graphs_zh",
+      "category": "model_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "model_clone_int8_eager_en",
+      "category": "model_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "model_clone_int8_eager_zh",
+      "category": "model_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "model_clone_te_int8_cuda_graphs_en",
+      "category": "model_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "model_clone_te_int8_cuda_graphs_zh",
+      "category": "model_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "model_clone_te_int8_eager_en",
+      "category": "model_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "model_clone_te_int8_eager_zh",
+      "category": "model_clone",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "multi_eight_clone",
+      "category": "multi",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "multi_eight_supported",
+      "category": "multi",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "multi_four_mixed",
+      "category": "multi",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "multi_one",
+      "category": "multi",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "multi_pause_0",
+      "category": "multi",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "multi_pause_1",
+      "category": "multi",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "multi_two_clone",
+      "category": "multi",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "multi_two_design",
+      "category": "multi",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "no_description",
+      "category": "negative",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "no_speakers",
+      "category": "negative",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "recovery_after_error",
+      "category": "recovery",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "reference_too_long",
+      "category": "negative",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "reload_after_free",
+      "category": "recovery",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "review_bench_te_int8_eager_zh_2_forced_chunk15",
+      "category": "asr_review",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "review_daily_15_turn1",
+      "category": "asr_review",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "review_daily_15_turn2",
+      "category": "asr_review",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "review_daily_15_turn3",
+      "category": "asr_review",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "review_daily_15_turn4",
+      "category": "asr_review",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "review_daily_15_turn5",
+      "category": "asr_review",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "review_daily_15_turn6",
+      "category": "asr_review",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "review_daily_15_turn7",
+      "category": "asr_review",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "review_daily_15_turn8",
+      "category": "asr_review",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "review_event_zh_3_forced_chunk15",
+      "category": "asr_review",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "review_long_zh_forced_chunk0",
+      "category": "asr_review",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "review_long_zh_forced_chunk15",
+      "category": "asr_review",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "review_multi_eight_clone_turn1",
+      "category": "asr_review",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "review_multi_eight_clone_turn2",
+      "category": "asr_review",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "review_multi_eight_clone_turn3",
+      "category": "asr_review",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "review_multi_eight_clone_turn4",
+      "category": "asr_review",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "review_multi_eight_clone_turn5",
+      "category": "asr_review",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "review_multi_eight_clone_turn6",
+      "category": "asr_review",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "review_multi_eight_clone_turn7",
+      "category": "asr_review",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "review_multi_eight_clone_turn8",
+      "category": "asr_review",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "review_multi_eight_supported_turn1",
+      "category": "asr_review",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "review_multi_eight_supported_turn2",
+      "category": "asr_review",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "review_multi_eight_supported_turn3",
+      "category": "asr_review",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "review_multi_eight_supported_turn4",
+      "category": "asr_review",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "review_multi_eight_supported_turn5",
+      "category": "asr_review",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "review_multi_eight_supported_turn6",
+      "category": "asr_review",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "review_multi_eight_supported_turn7",
+      "category": "asr_review",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "review_multi_eight_supported_turn8",
+      "category": "asr_review",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "same_seed_a",
+      "category": "reproducibility",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "same_seed_b",
+      "category": "reproducibility",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "script_bracket",
+      "category": "script",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "script_continuation",
+      "category": "script",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "script_external_string",
+      "category": "script",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "script_json_object",
+      "category": "script",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "script_json_wrapper",
+      "category": "script",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "script_markdown",
+      "category": "script",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "script_name_matching",
+      "category": "script",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "smoke_clone_en",
+      "category": "smoke",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "smoke_clone_zh",
+      "category": "smoke",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "smoke_design_zh",
+      "category": "smoke",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "speaker_auto_transcribe",
+      "category": "speaker",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "speaker_configuration",
+      "category": "diagnostic",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "speaker_ui_upload_clone",
+      "category": "speaker",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "speaker_wired_priority",
+      "category": "speaker",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "stitch_en_after",
+      "category": "stitch",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "stitch_en_before",
+      "category": "stitch",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "stitch_zh_after",
+      "category": "stitch",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "stitch_zh_before",
+      "category": "stitch",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "text_abbreviation",
+      "category": "text",
+      "disposition": "included: breeze-text-abbreviation"
+    },
+    {
+      "source": "local-breeze",
+      "id": "text_mixed",
+      "category": "text",
+      "disposition": "included: breeze-text-mixed"
+    },
+    {
+      "source": "local-breeze",
+      "id": "text_multisentence",
+      "category": "text",
+      "disposition": "included: breeze-text-multisentence"
+    },
+    {
+      "source": "local-breeze",
+      "id": "text_numbers",
+      "category": "text",
+      "disposition": "included: breeze-text-numbers"
+    },
+    {
+      "source": "local-breeze",
+      "id": "text_punctuation",
+      "category": "text",
+      "disposition": "included: breeze-text-punctuation"
+    },
+    {
+      "source": "local-breeze",
+      "id": "ui_01",
+      "category": "ui",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "ui_05",
+      "category": "ui",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "ui_14",
+      "category": "ui",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "local-breeze",
+      "id": "unknown_speaker",
+      "category": "negative",
+      "disposition": "excluded: diagnostic, performance, private reference or out of curated scope"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "breeze-chef-clone",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "breeze-chef-combo",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "breeze-chef-happy",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "breeze-chef-laugh",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "breeze-chef-loud",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "breeze-chef-slow",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "breeze-chef-whisper",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "drama3-chef-clone",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "drama3-chef-combo",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "drama3-chef-happy",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "drama3-chef-laugh",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "drama3-chef-loud",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "drama3-chef-scoped",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "drama3-chef-slow",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "drama3-chef-whisper",
+      "disposition": "included"
+    },
+    {
+      "source": "upstream-breeze",
+      "id": "brian.wav",
+      "disposition": "excluded: first voice-reference library contains Spicy Chef only"
+    },
+    {
+      "source": "upstream-breeze",
+      "id": "lois.wav",
+      "disposition": "excluded: first voice-reference library contains Spicy Chef only"
+    },
+    {
+      "source": "upstream-breeze",
+      "id": "peter.wav",
+      "disposition": "excluded: first voice-reference library contains Spicy Chef only"
+    },
+    {
+      "source": "upstream-breeze",
+      "id": "stewie.wav",
+      "disposition": "excluded: first voice-reference library contains Spicy Chef only"
+    },
+    {
+      "source": "upstream-drama3",
+      "disposition": "Installed source has no bundled audio; documented cue syntax used for new controlled samples"
+    }
+  ],
+  "scope": "Complete inventory of recorded local Breeze tests and installed upstream audio; curated voice-design, vocal-event and text examples, plus new Spicy Chef controls. No private voices imported.",
+  "counts": {
+    "records": 37,
+    "examples": 36,
+    "voices": 1
+  }
+}

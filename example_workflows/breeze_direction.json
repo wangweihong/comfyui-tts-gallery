@@ -1,0 +1,517 @@
+{
+  "id": "e4df160f-2623-4d31-8a9b-4fa824b5aa26",
+  "revision": 0,
+  "version": 0.4,
+  "last_node_id": 40,
+  "last_link_id": 9,
+  "nodes": [
+    {
+      "id": 1,
+      "type": "PrimitiveStringMultiline",
+      "title": "PrimitiveStringMultiline - 输入要朗读的文案",
+      "pos": [
+        40,
+        40
+      ],
+      "size": [
+        410,
+        250
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            2
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "你好，欢迎来到语音图库。选好声音，我们就开始吧。"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "PrimitiveInt",
+      "title": "PrimitiveInt - 随机种子，固定以便对照",
+      "pos": [
+        490,
+        40
+      ],
+      "size": [
+        300,
+        110
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            8
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PrimitiveInt"
+      },
+      "widgets_values": [
+        20261109,
+        "fixed"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "PrimitiveFloat",
+      "title": "PrimitiveFloat - 采样温度",
+      "pos": [
+        490,
+        210
+      ],
+      "size": [
+        300,
+        110
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": [
+            7
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PrimitiveFloat"
+      },
+      "widgets_values": [
+        0.85
+      ]
+    },
+    {
+      "id": 4,
+      "type": "TTSVoiceGallery",
+      "title": "TTSVoiceGallery - 选择克隆参考音色",
+      "pos": [
+        40,
+        600
+      ],
+      "size": [
+        410,
+        420
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "reference_audio",
+          "type": "AUDIO",
+          "links": [
+            3
+          ]
+        },
+        {
+          "name": "reference_text",
+          "type": "STRING",
+          "links": [
+            4
+          ]
+        },
+        {
+          "name": "description",
+          "type": "STRING",
+          "links": []
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "TTSVoiceGallery"
+      },
+      "widgets_values": [
+        "huola-dachu",
+        "zh"
+      ]
+    },
+    {
+      "id": 10,
+      "type": "BreezeTTS2LoadModel",
+      "title": "BreezeTTS2LoadModel - 加载语音模型",
+      "pos": [
+        850,
+        40
+      ],
+      "size": [
+        410,
+        330
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "breeze_model",
+          "type": "BREEZE_TTS2_MODEL",
+          "links": [
+            1
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "BreezeTTS2LoadModel"
+      },
+      "widgets_values": [
+        "int8 hybrid (recommended)",
+        "bf16",
+        "cuda",
+        "sdpa",
+        "cuda_graphs",
+        false
+      ]
+    },
+    {
+      "id": 5,
+      "type": "PrimitiveFloat",
+      "title": "PrimitiveFloat - 指令强度，克隆建议1，设计或控制建议4",
+      "pos": [
+        490,
+        380
+      ],
+      "size": [
+        300,
+        110
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": [
+            6
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PrimitiveFloat"
+      },
+      "widgets_values": [
+        4.0
+      ]
+    },
+    {
+      "id": 6,
+      "type": "PrimitiveStringMultiline",
+      "title": "PrimitiveStringMultiline - 声音设计或表达指令",
+      "pos": [
+        40,
+        300
+      ],
+      "size": [
+        410,
+        250
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            5
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "保持参考音色，用轻快、兴奋的语气说话。"
+      ]
+    },
+    {
+      "id": 20,
+      "type": "BreezeTTS2VoiceDirection",
+      "title": "BreezeTTS2VoiceDirection - 按文案与参数生成语音",
+      "pos": [
+        1310,
+        40
+      ],
+      "size": [
+        410,
+        560
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "breeze_model",
+          "type": "BREEZE_TTS2_MODEL",
+          "link": 1
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 2,
+          "widget": {
+            "name": "text"
+          }
+        },
+        {
+          "name": "reference_audio",
+          "type": "AUDIO",
+          "link": 3
+        },
+        {
+          "name": "reference_text",
+          "type": "STRING",
+          "link": 4,
+          "widget": {
+            "name": "reference_text"
+          }
+        },
+        {
+          "name": "instruction",
+          "type": "STRING",
+          "link": 5,
+          "widget": {
+            "name": "instruction"
+          }
+        },
+        {
+          "name": "cfg_scale",
+          "type": "FLOAT",
+          "link": 6,
+          "widget": {
+            "name": "cfg_scale"
+          }
+        },
+        {
+          "name": "temperature",
+          "type": "FLOAT",
+          "link": 7,
+          "widget": {
+            "name": "temperature"
+          }
+        },
+        {
+          "name": "seed",
+          "type": "INT",
+          "link": 8,
+          "widget": {
+            "name": "seed"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "links": [
+            9
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "BreezeTTS2VoiceDirection"
+      },
+      "widgets_values": [
+        "(clears throat) We need to discuss what happened last night.",
+        "This is the exact transcript of the reference audio.",
+        "Speak slowly with a restrained, serious tone.",
+        4.0,
+        "none",
+        504,
+        0.9,
+        50,
+        1.0,
+        1.1,
+        0.9,
+        50,
+        1.0,
+        42,
+        "fixed"
+      ]
+    },
+    {
+      "id": 30,
+      "type": "SaveAudio",
+      "title": "SaveAudio - 保存最终FLAC语音",
+      "pos": [
+        2240,
+        40
+      ],
+      "size": [
+        330,
+        330
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 9
+        }
+      ],
+      "outputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "links": []
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SaveAudio"
+      },
+      "widgets_values": [
+        "audio/breeze-tts-2/tts-gallery/breeze-chef-happy"
+      ]
+    },
+    {
+      "id": 40,
+      "type": "Note",
+      "title": "Note - 示例说明与来源链接",
+      "pos": [
+        850,
+        1000
+      ],
+      "size": [
+        720,
+        300
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": [
+        "轻快兴奋 · 火辣大厨\n模型: breeze / direction\n修改最左侧文案和参数后手动运行。切换示例请从图库重新打开完整配置。\n示例音频是生成结果，音色参考是克隆输入；不要混接。\n固定种子便于比较，不保证跨版本逐位一致；音色相似度与表达效果需要试听判断。\n\n模型用法来源: https://huggingface.co/BreezeBlue/Breeze-TTS-2\n素材来源: Generated locally for TTS Gallery; https://huggingface.co/BreezeBlue/Breeze-TTS-2\n参考编号: breeze-chef-happy\n验证状态: {\"execution\": \"success\", \"transcript\": \"asr_checked\", \"listening\": \"unreviewed\"}"
+      ]
+    }
+  ],
+  "links": [
+    [
+      1,
+      10,
+      0,
+      20,
+      0,
+      "BREEZE_TTS2_MODEL"
+    ],
+    [
+      2,
+      1,
+      0,
+      20,
+      1,
+      "STRING"
+    ],
+    [
+      3,
+      4,
+      0,
+      20,
+      2,
+      "AUDIO"
+    ],
+    [
+      4,
+      4,
+      1,
+      20,
+      3,
+      "STRING"
+    ],
+    [
+      5,
+      6,
+      0,
+      20,
+      4,
+      "STRING"
+    ],
+    [
+      6,
+      5,
+      0,
+      20,
+      5,
+      "FLOAT"
+    ],
+    [
+      7,
+      3,
+      0,
+      20,
+      6,
+      "FLOAT"
+    ],
+    [
+      8,
+      2,
+      0,
+      20,
+      7,
+      "INT"
+    ],
+    [
+      9,
+      20,
+      0,
+      30,
+      0,
+      "AUDIO"
+    ]
+  ],
+  "groups": [
+    {
+      "title": "输入与参数 - 文案、参考声音、种子与常用控制",
+      "bounding": [
+        20,
+        0,
+        800,
+        1050
+      ],
+      "color": "#5b5bd6",
+      "font_size": 24,
+      "flags": {}
+    }
+  ],
+  "config": {},
+  "extra": {
+    "tts_gallery": {
+      "reference_id": "breeze-chef-happy",
+      "name": "轻快兴奋 · 火辣大厨"
+    },
+    "ds": {
+      "scale": 0.62,
+      "offset": [
+        60,
+        250
+      ]
+    }
+  }
+}

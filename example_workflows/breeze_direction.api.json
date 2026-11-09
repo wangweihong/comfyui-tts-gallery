@@ -1,0 +1,132 @@
+{
+  "1": {
+    "class_type": "PrimitiveStringMultiline",
+    "inputs": {
+      "value": "你好，欢迎来到语音图库。选好声音，我们就开始吧。"
+    },
+    "_meta": {
+      "title": "PrimitiveStringMultiline - 输入要朗读的文案"
+    }
+  },
+  "2": {
+    "class_type": "PrimitiveInt",
+    "inputs": {
+      "value": 20261109
+    },
+    "_meta": {
+      "title": "PrimitiveInt - 随机种子，固定以便对照"
+    }
+  },
+  "3": {
+    "class_type": "PrimitiveFloat",
+    "inputs": {
+      "value": 0.85
+    },
+    "_meta": {
+      "title": "PrimitiveFloat - 采样温度"
+    }
+  },
+  "4": {
+    "class_type": "TTSVoiceGallery",
+    "inputs": {
+      "reference_id": "huola-dachu",
+      "language": "zh"
+    },
+    "_meta": {
+      "title": "TTSVoiceGallery - 选择克隆参考音色"
+    }
+  },
+  "10": {
+    "class_type": "BreezeTTS2LoadModel",
+    "inputs": {
+      "model": "int8 hybrid (recommended)",
+      "dtype": "bf16",
+      "device": "cuda",
+      "attention": "sdpa",
+      "decode_mode": "cuda_graphs",
+      "download_if_missing": false
+    },
+    "_meta": {
+      "title": "BreezeTTS2LoadModel - 加载语音模型"
+    }
+  },
+  "5": {
+    "class_type": "PrimitiveFloat",
+    "inputs": {
+      "value": 4.0
+    },
+    "_meta": {
+      "title": "PrimitiveFloat - 指令强度，克隆建议1，设计或控制建议4"
+    }
+  },
+  "6": {
+    "class_type": "PrimitiveStringMultiline",
+    "inputs": {
+      "value": "保持参考音色，用轻快、兴奋的语气说话。"
+    },
+    "_meta": {
+      "title": "PrimitiveStringMultiline - 声音设计或表达指令"
+    }
+  },
+  "20": {
+    "class_type": "BreezeTTS2VoiceDirection",
+    "inputs": {
+      "cfg_scale": [
+        "5",
+        0
+      ],
+      "max_new_tokens": 504,
+      "temperature": [
+        "3",
+        0
+      ],
+      "top_k": 50,
+      "top_p": 1.0,
+      "repetition_penalty": 1.1,
+      "depth_temperature": 0.9,
+      "depth_top_k": 50,
+      "depth_top_p": 1.0,
+      "seed": [
+        "2",
+        0
+      ],
+      "stitch_reference": "none",
+      "text": [
+        "1",
+        0
+      ],
+      "breeze_model": [
+        "10",
+        0
+      ],
+      "reference_audio": [
+        "4",
+        0
+      ],
+      "reference_text": [
+        "4",
+        1
+      ],
+      "instruction": [
+        "6",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "BreezeTTS2VoiceDirection - 按文案与参数生成语音"
+    }
+  },
+  "30": {
+    "class_type": "SaveAudio",
+    "inputs": {
+      "audio": [
+        "20",
+        0
+      ],
+      "filename_prefix": "audio/breeze-tts-2/tts-gallery/breeze-chef-happy"
+    },
+    "_meta": {
+      "title": "SaveAudio - 保存最终FLAC语音"
+    }
+  }
+}
