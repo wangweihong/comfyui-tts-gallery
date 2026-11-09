@@ -1,0 +1,180 @@
+{
+  "1": {
+    "class_type": "PrimitiveStringMultiline",
+    "inputs": {
+      "value": "<|speaker:0|> 你好，今天想试试什么声音？\n<|speaker:1|> 我想找一种温柔又自然的声音。\n<|speaker:0|> 好，我们先听一段，再决定。\n<|speaker:1|> 就这么办，开始吧。"
+    },
+    "_meta": {
+      "title": "PrimitiveStringMultiline - 输入要朗读的文案"
+    }
+  },
+  "2": {
+    "class_type": "PrimitiveInt",
+    "inputs": {
+      "value": 20261109
+    },
+    "_meta": {
+      "title": "PrimitiveInt - 随机种子，固定以便对照"
+    }
+  },
+  "3": {
+    "class_type": "PrimitiveFloat",
+    "inputs": {
+      "value": 1.0
+    },
+    "_meta": {
+      "title": "PrimitiveFloat - 采样温度"
+    }
+  },
+  "4": {
+    "class_type": "TTSVoiceGallery",
+    "inputs": {
+      "reference_id": "huola-dachu",
+      "language": "zh"
+    },
+    "_meta": {
+      "title": "TTSVoiceGallery - 角色0参考：火辣大厨"
+    }
+  },
+  "7": {
+    "class_type": "TTSVoiceGallery",
+    "inputs": {
+      "reference_id": "warm-female-zh",
+      "language": "zh"
+    },
+    "_meta": {
+      "title": "TTSVoiceGallery - 角色1参考：温暖女声"
+    }
+  },
+  "10": {
+    "class_type": "Drama3Loader",
+    "inputs": {
+      "model_name": "drama3_fp8experts_bf16.safetensors",
+      "experts": "in RAM",
+      "expert_cache_gb": 0.0,
+      "second_gpu": "none",
+      "split_layer": 0
+    },
+    "_meta": {
+      "title": "Drama3Loader - 加载语音模型，专家放内存"
+    }
+  },
+  "11": {
+    "class_type": "Drama3CodecLoader",
+    "inputs": {
+      "codec_name": "drama3_codec.safetensors"
+    },
+    "_meta": {
+      "title": "Drama3CodecLoader - 加载音频编解码器"
+    }
+  },
+  "12": {
+    "class_type": "Drama3EncodeVoice",
+    "inputs": {
+      "codec": [
+        "11",
+        0
+      ],
+      "audio": [
+        "4",
+        0
+      ],
+      "transcript": [
+        "4",
+        1
+      ]
+    },
+    "_meta": {
+      "title": "Drama3EncodeVoice - 编码角色0的参考声音"
+    }
+  },
+  "13": {
+    "class_type": "Drama3EncodeVoice",
+    "inputs": {
+      "codec": [
+        "11",
+        0
+      ],
+      "audio": [
+        "7",
+        0
+      ],
+      "transcript": [
+        "7",
+        1
+      ]
+    },
+    "_meta": {
+      "title": "Drama3EncodeVoice - 编码角色1的参考声音"
+    }
+  },
+  "20": {
+    "class_type": "Drama3Generate",
+    "inputs": {
+      "seed": [
+        "2",
+        0
+      ],
+      "temperature": [
+        "3",
+        0
+      ],
+      "top_p": 0.9,
+      "top_k": 0,
+      "max_frames": 360,
+      "split_long_text": true,
+      "speakers": "one take per line",
+      "text": [
+        "1",
+        0
+      ],
+      "model": [
+        "10",
+        0
+      ],
+      "voices": {
+        "voice0": [
+          "12",
+          0
+        ],
+        "voice1": [
+          "13",
+          0
+        ]
+      }
+    },
+    "_meta": {
+      "title": "Drama3Generate - 使用参考音色与文本标签生成"
+    }
+  },
+  "21": {
+    "class_type": "Drama3Decode",
+    "inputs": {
+      "codec": [
+        "11",
+        0
+      ],
+      "codes": [
+        "20",
+        0
+      ],
+      "shorten_long_pauses": true
+    },
+    "_meta": {
+      "title": "Drama3Decode - 解码生成语音"
+    }
+  },
+  "30": {
+    "class_type": "SaveAudio",
+    "inputs": {
+      "audio": [
+        "21",
+        0
+      ],
+      "filename_prefix": "audio/drama3/tts-gallery/drama3-extra-dialogue-natural"
+    },
+    "_meta": {
+      "title": "SaveAudio - 保存最终FLAC语音"
+    }
+  }
+}

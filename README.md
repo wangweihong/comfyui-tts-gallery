@@ -1,10 +1,22 @@
 # comfyui-tts-gallery
 
-ComfyUI 本地语音示例与音色参考图库。**36 条可试听模型示例、1 条可克隆音色参考**，音频随插件提供，离线可用。首批支持 **Breeze TTS 2、Drama 3**。
+ComfyUI 本地语音示例与音色参考图库。**71 条可试听模型示例、2 条可克隆音色参考**，音频随插件提供，离线可用。首批支持 **Breeze TTS 2、Drama 3**。
 
 ![语音图库](docs/gallery-zh.png)
 
+<!-- drama3-expansion:start -->
+**Drama3扩展已入库35/35条。** 详情保留真实生成参数和ASR辅助核对状态，人工听感仍待试听验收。
+<!-- drama3-expansion:end -->
+
+扩展包含10种情绪语气、4种耳语写法、5种播报/叙事表达、语速停顿、局部强调、发声事件和6组真实双声线对话。清单与后台状态说明见 [Drama3扩展说明](docs/drama3-expansion.md)。
+
 ## 安装与入口
+
+在 `ComfyUI/custom_nodes/` 目录执行：
+
+```bash
+git clone https://github.com/wangweihong/comfyui-tts-gallery.git
+```
 
 将整个 `comfyui-tts-gallery` 文件夹放入 `ComfyUI/custom_nodes/`，重启 ComfyUI 并刷新网页。依赖为 ComfyUI 已使用的 `aiohttp`、`av`、`numpy`、`torch`，无前端构建步骤。浏览和参考节点不加载 TTS 权重；生成需要另行安装对应的 [Breeze 节点](https://github.com/Saganaki22/ComfyUI-Breeze-TTS-2) 或 [Drama3 节点](https://github.com/PedroMarinhoDev/ComfyUI-Drama3) 及模型。
 
@@ -36,21 +48,23 @@ ComfyUI 本地语音示例与音色参考图库。**36 条可试听模型示例�
 | Breeze 已有文本内容示例 | 5 |
 | Breeze 火辣大厨克隆与表达控制 | 7 |
 | Drama3 火辣大厨克隆与标签控制 | 8 |
-| 冻结克隆参考：火辣大厨 | 1 |
+| 冻结克隆参考：火辣大厨、温暖女声 | 2 |
+| Drama3 扩展语气、耳语及双人对话 | 35/35 |
 
-已有本地 Breeze 的 698 条运行记录经过全量盘点，目录包含其声音设计、发声事件和文本内容示例；性能测试、重复诊断和其他私人参考不作为预设导入。上游 Breeze 附带的4条英文参考不加入首批音色库。完整纳入／排除记录见 `library/SOURCE.json`。
+已有本地 Breeze 的 698 条运行记录经过全量盘点，目录包含其声音设计、发声事件和文本内容示例；性能测试、重复诊断和其他私人参考不作为预设导入。上游 Breeze 附带的4条英文参考不加入音色库。温暖女声复用已有的中文合成样音，新增为双人对话的第二个参考，不重新设计、不复用同一音色的副本。完整纳入／排除记录见 `library/SOURCE.json`。
 
 新增15条示例复用同一份火辣大厨参考，各模型内部固定基础采样参数，涵盖自然克隆、情绪、慢速、音量、耳语、笑声、局部控制和组合。首批不声明模型存在固定音色编号：Breeze 声音设计通过描述生成声音，Drama3 的特色声线通过参考音频克隆。
 
 **打开示例工作流**会把当前条目的完整配置载入新的工作流标签页，保留当前工作流。文案、参考音色、种子、温度和指令强度集中在最左侧；高级参数保留在生成节点。换示例时重新打开完整工作流，单独切换参考节点不会自动改写生成节点的参数。
 
-五个可直接导入的 UI 工作流及同名 API 版本位于 `example_workflows/`：
+六个可直接导入的 UI 工作流及同名 API 版本位于 `example_workflows/`：
 
 - `breeze_design.json`：声音描述设计。
 - `breeze_clone.json`：参考音频与逐字稿克隆。
 - `breeze_direction.json`：参考音色加表达指令。
 - `drama3_clone.json`：参考音色 → 编码 → 生成 → 解码。
 - `drama3_tags.json`：局部标签示例。
+- `drama3_dialogue.json`：两个独立参考节点分别编码为voice0、voice1，再按speaker标签分配台词；模板可直接导入使用。
 
 输出保存在 `ComfyUI/output/audio/breeze-tts-2/tts-gallery/` 或 `audio/drama3/tts-gallery/`，仅保存最终 FLAC。模型文件缺失时按对应节点的提示安装，不自动下载、替换模型或重启服务。
 
@@ -74,7 +88,7 @@ preview/u-<uuid>.wav    # 浏览器试听副本
 
 ## 验证状态
 
-目录将**执行、文字完整性、听感**分开记录。解码或执行通过不等于听感验收。新增15条已完成实际生成和ASR辅助核对；两条存在“你好／您好”的识别差异，详情已标注。所有示例的人工听感状态保留为未验收，不以ASR结果推断音色相似度或关键词效果。
+目录将**执行、文字完整性、听感**分开记录。解码或执行通过不等于听感验收。首批15条已完成实际生成和ASR辅助核对，其中两条存在“你好／您好”的识别差异。后续35条Drama3扩展也已全部生成并核对：27条ASR文字一致、8条存在差异，详情均保留结果供试听核查。所有示例的人工听感状态保留为未验收，不以ASR结果推断音色相似度或关键词效果。
 
 本机验证环境：ComfyUI 0.43.0、前端1.57.4、RTX 5090 D；Breeze INT8 hybrid / BF16 / SDPA / cuda_graphs；Drama3 FP8 experts in RAM。固定种子用于对照，不承诺跨版本逐位复现。
 
@@ -85,7 +99,7 @@ python -m unittest discover -s tests -v
 node --test tests/test_frontend.mjs
 ```
 
-需要已安装上述依赖的 Python 环境。`tests/serve_preview.py` 提供隔离预览；用户库位于被忽略的 `.generation/preview-user`。`scripts/build_catalog.py` 从原始运行记录重建素材；`scripts/export_examples.py` 导出共享工作流。生成与ASR核对脚本仅用于开发验收，不由图库界面调用。
+需要已安装上述依赖的 Python 环境。`tests/serve_preview.py` 提供隔离预览；用户库位于被忽略的 `.generation/preview-user`。`scripts/build_catalog.py` 从原始运行记录重建素材；`scripts/export_examples.py` 导出共享工作流。`scripts/drama3_batch.py enqueue` 将35条扩展提交到队列末尾，`start-watcher` 启动自动整理进程，`status` 查看阶段；已提交的任务按prompt_id恢复，不重复排队。生成与ASR核对脚本仅用于开发验收，不由图库界面调用。
 
 ## 接口
 

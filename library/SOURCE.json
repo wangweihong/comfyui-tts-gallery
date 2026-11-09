@@ -4287,12 +4287,192 @@
     {
       "source": "upstream-drama3",
       "disposition": "Installed source has no bundled audio; documented cue syntax used for new controlled samples"
+    },
+    {
+      "source": "existing-synthetic-voice",
+      "id": "warm-female-zh",
+      "disposition": "included: distinct second reference for dialogue"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "drama3-extra-angry",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "drama3-extra-comforting",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "drama3-extra-confident",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "drama3-extra-cough",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "drama3-extra-dialogue-interview",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "drama3-extra-dialogue-natural",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "drama3-extra-dialogue-reconcile",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "drama3-extra-dialogue-reunion",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "drama3-extra-dialogue-secret",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "drama3-extra-dialogue-together",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "drama3-extra-director-comfort",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "drama3-extra-doubtful",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "drama3-extra-emphasis",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "drama3-extra-fast",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "drama3-extra-formal",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "drama3-extra-gasp",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "drama3-extra-impatient",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "drama3-extra-laugh-middle",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "drama3-extra-news",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "drama3-extra-pauses",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "drama3-extra-playful",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "drama3-extra-sad",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "drama3-extra-sarcastic",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "drama3-extra-scoped-slow",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "drama3-extra-serious",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "drama3-extra-sigh",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "drama3-extra-storytelling",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "drama3-extra-surprised",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "drama3-extra-throat",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "drama3-extra-tired",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "drama3-extra-whisper-close",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "drama3-extra-whisper-director",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "drama3-extra-whisper-tense",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "drama3-extra-whisper-transition",
+      "disposition": "included"
+    },
+    {
+      "source": "tts-gallery-generation",
+      "id": "drama3-extra-worried",
+      "disposition": "included"
     }
   ],
   "scope": "Complete inventory of recorded local Breeze tests and installed upstream audio; curated voice-design, vocal-event and text examples, plus new Spicy Chef controls. No private voices imported.",
   "counts": {
-    "records": 37,
-    "examples": 36,
-    "voices": 1
+    "records": 73,
+    "examples": 71,
+    "voices": 2
   }
 }

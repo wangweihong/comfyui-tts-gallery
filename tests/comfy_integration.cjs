@@ -1,9 +1,9 @@
 // Actual ComfyUI integration: retains graphs, checks exported prompts, tests both renderers.
-const {chromium}=require(process.env.PLAYWRIGHT_PATH || '/home/wwhvw/.codex/plugins/cache/personal-media-tools/local-library/0.3.0/node_modules/playwright');
+const {chromium}=require(process.env.PLAYWRIGHT_PATH || 'playwright');
 function normalizeInputs(value){const result={...value};for(const key of Object.keys(result)){if(key.startsWith('voices.')){result.voices ||= {};result.voices[key.slice(7)]=result[key];delete result[key]}}return result}
 const assert=require('node:assert/strict');const path=require('node:path');const fs=require('node:fs');
 (async()=>{
- const browser=await chromium.launch({headless:true,executablePath:'/home/wwhvw/.cache/ms-playwright/chromium-1228/chrome-linux64/chrome',args:['--no-sandbox','--no-proxy-server']});
+ const browser=await chromium.launch({headless:true,executablePath:process.env.CHROMIUM_PATH || undefined,args:['--no-sandbox','--no-proxy-server']});
  const page=await browser.newPage({viewport:{width:1660,height:1100}});const errors=[],queuedRequests=[];
  page.on('request',request=>{if(request.method()==='POST' && new URL(request.url()).pathname.endsWith('/prompt'))queuedRequests.push(request.url())});
  page.on('pageerror',error=>{if(error.stack?.includes('tts_gallery'))errors.push(error.stack)});

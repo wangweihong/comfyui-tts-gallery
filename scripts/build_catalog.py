@@ -104,6 +104,25 @@ def main():
  for n in ['brian','lois','peter','stewie']:
   inventory.append({'source':'upstream-breeze','id':n+'.wav','disposition':'excluded: first voice-reference library contains Spicy Chef only'})
  inventory.append({'source':'upstream-drama3','disposition':'Installed source has no bundled audio; documented cue syntax used for new controlled samples'})
+ # A second existing synthetic reference enables actual two-voice dialogue.
+ female = next(r for r in records if r['id'] == 'breeze-design-zh-female')
+ fields = ['audio','preview','sha256','duration','sample_rate','channels','waveform']
+ records.append({'id':'warm-female-zh','kind':'voice','origin':'builtin','name_zh':'温暖女声','name_en':'Warm Female',
+   'language':'zh','reference_text':female['text'],'description_zh':'已有Breeze声音设计生成的温暖成年女声，用作双人对话的角色1，与火辣大厨使用不同的原始样音。',
+   'description_en':'An existing synthetic warm adult female voice, reused as speaker 1 in dialogue with a different recording from Spicy Chef.',
+   'tags':['成年女声','普通话','双人对话'],'source':'Existing user-owned synthetic Breeze design: design_zh_female; reused without redesign.',
+   'validation':{'execution':'decoded','transcript':'asr_checked','listening':'unreviewed'},**{k:female[k] for k in fields}})
+ inventory.append({'source':'existing-synthetic-voice','id':'warm-female-zh','disposition':'included: distinct second reference for dialogue'})
+ for file in sorted((ROOT/'.generation').glob('drama3-extra-*.json')):
+  state=json.loads(file.read_text())
+  if state.get('status')!='completed':continue
+  preset=state['preset']; output=state['output_file']; source=args.output_root/output.get('subfolder','')/output['filename']
+  validation={'execution':'success','transcript':state.get('transcript_review',{}).get('status','pending'),'listening':'unreviewed'}
+  records.append({**preset,'source':'Generated locally for TTS Gallery; https://github.com/PedroMarinhoDev/ComfyUI-Drama3',
+    'validation':validation,'provenance':{'prompt_id':state['prompt_id'],'transcript_review':state.get('transcript_review')},**assets(source,preset['id'])})
+  inventory.append({'source':'tts-gallery-generation','id':preset['id'],'disposition':'included'})
+ for row in records:
+  if row['id'] in ('drama3-chef-whisper','drama3-chef-scoped'):row['category']='whisper'
  records.sort(key=lambda r:(r['kind']!='example',r.get('model')!='breeze',r['language']!='zh',r['category']!='voice' if 'category' in r else False,r['id']))
  (ROOT/'library'/'catalog.json').write_text(json.dumps({'version':1,'records':records},ensure_ascii=False,indent=2))
  (ROOT/'library'/'SOURCE.json').write_text(json.dumps({'version':1,'inventory':inventory,'scope':'Complete inventory of recorded local Breeze tests and installed upstream audio; curated voice-design, vocal-event and text examples, plus new Spicy Chef controls. No private voices imported.','counts':{'records':len(records),'examples':sum(r['kind']=='example' for r in records),'voices':sum(r['kind']=='voice' for r in records)}},ensure_ascii=False,indent=2))

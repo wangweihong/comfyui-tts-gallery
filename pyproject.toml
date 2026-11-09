@@ -1,9 +1,13 @@
 [project]
 name = "comfyui-tts-gallery"
-version = "0.1.0"
+version = "0.2.0"
 description = "Offline TTS examples and reusable voice references for ComfyUI"
 requires-python = ">=3.10"
 dependencies = ["aiohttp", "av", "numpy", "torch"]
+
+[project.urls]
+Repository = "https://github.com/wangweihong/comfyui-tts-gallery"
+Issues = "https://github.com/wangweihong/comfyui-tts-gallery/issues"
 
 [tool.comfy]
 PublisherId = ""

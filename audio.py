@@ -3,7 +3,6 @@ import io
 import wave
 from pathlib import Path
 
-import av
 import numpy as np
 
 MAX_BYTES = 25 * 1024 * 1024
@@ -13,6 +12,7 @@ ALLOWED = {"wav", "flac", "mp3"}
 
 def decode(path, *, max_seconds=MAX_SECONDS):
     """Return float32 [channels, samples] and the original sample rate."""
+    import av
     try:
         with av.open(str(path), options={"protocol_whitelist": "file,pipe"}) as container:
             if not ALLOWED.intersection(container.format.name.split(",")):

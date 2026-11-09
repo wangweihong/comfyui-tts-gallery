@@ -1,0 +1,218 @@
+{
+  "status": "complete",
+  "total": 35,
+  "completed": 35,
+  "failed": 0,
+  "recipes": [
+    {
+      "id": "drama3-extra-serious",
+      "name_zh": "语气 · 严肃认真",
+      "name_en": "Tone · serious",
+      "category": "emotion"
+    },
+    {
+      "id": "drama3-extra-sad",
+      "name_zh": "语气 · 低落伤感",
+      "name_en": "Tone · sadness",
+      "category": "emotion"
+    },
+    {
+      "id": "drama3-extra-angry",
+      "name_zh": "语气 · 克制愤怒",
+      "name_en": "Tone · restrained anger",
+      "category": "emotion"
+    },
+    {
+      "id": "drama3-extra-surprised",
+      "name_zh": "语气 · 惊讶意外",
+      "name_en": "Tone · surprise",
+      "category": "emotion"
+    },
+    {
+      "id": "drama3-extra-worried",
+      "name_zh": "语气 · 紧张担心",
+      "name_en": "Tone · worried",
+      "category": "emotion"
+    },
+    {
+      "id": "drama3-extra-confident",
+      "name_zh": "语气 · 自信笃定",
+      "name_en": "Tone · confident",
+      "category": "emotion"
+    },
+    {
+      "id": "drama3-extra-doubtful",
+      "name_zh": "语气 · 迟疑疑问",
+      "name_en": "Tone · doubtful",
+      "category": "emotion"
+    },
+    {
+      "id": "drama3-extra-comforting",
+      "name_zh": "语气 · 温柔安慰",
+      "name_en": "Tone · comforting",
+      "category": "emotion"
+    },
+    {
+      "id": "drama3-extra-impatient",
+      "name_zh": "语气 · 不耐烦",
+      "name_en": "Tone · impatient",
+      "category": "emotion"
+    },
+    {
+      "id": "drama3-extra-sarcastic",
+      "name_zh": "语气 · 轻微讽刺",
+      "name_en": "Tone · mild sarcasm",
+      "category": "emotion"
+    },
+    {
+      "id": "drama3-extra-whisper-close",
+      "name_zh": "耳语 · 近距离轻声",
+      "name_en": "Whisper · close and soft",
+      "category": "whisper"
+    },
+    {
+      "id": "drama3-extra-whisper-tense",
+      "name_zh": "耳语 · 紧张保密",
+      "name_en": "Whisper · tense secrecy",
+      "category": "whisper"
+    },
+    {
+      "id": "drama3-extra-whisper-transition",
+      "name_zh": "耳语 · 正常转耳语再恢复",
+      "name_en": "Whisper · normal, whisper, normal",
+      "category": "whisper"
+    },
+    {
+      "id": "drama3-extra-whisper-director",
+      "name_zh": "耳语 · 导演指令写法",
+      "name_en": "Whisper · director instruction",
+      "category": "whisper"
+    },
+    {
+      "id": "drama3-extra-news",
+      "name_zh": "表达 · 新闻播报",
+      "name_en": "Delivery · newsreader",
+      "category": "delivery"
+    },
+    {
+      "id": "drama3-extra-storytelling",
+      "name_zh": "表达 · 故事讲述",
+      "name_en": "Delivery · storyteller",
+      "category": "delivery"
+    },
+    {
+      "id": "drama3-extra-formal",
+      "name_zh": "表达 · 正式致辞",
+      "name_en": "Delivery · formal address",
+      "category": "delivery"
+    },
+    {
+      "id": "drama3-extra-playful",
+      "name_zh": "表达 · 俏皮轻松",
+      "name_en": "Delivery · playful",
+      "category": "delivery"
+    },
+    {
+      "id": "drama3-extra-tired",
+      "name_zh": "表达 · 疲惫困倦",
+      "name_en": "Delivery · tired",
+      "category": "delivery"
+    },
+    {
+      "id": "drama3-extra-fast",
+      "name_zh": "语速 · 快速利落",
+      "name_en": "Pace · brisk",
+      "category": "pace"
+    },
+    {
+      "id": "drama3-extra-pauses",
+      "name_zh": "节奏 · 清楚停顿",
+      "name_en": "Rhythm · clear pauses",
+      "category": "pace"
+    },
+    {
+      "id": "drama3-extra-scoped-slow",
+      "name_zh": "局部控制 · 放慢关键句",
+      "name_en": "Scoped control · slow phrase",
+      "category": "scope"
+    },
+    {
+      "id": "drama3-extra-sigh",
+      "name_zh": "发声 · 叹气",
+      "name_en": "Vocal event · sigh",
+      "category": "event"
+    },
+    {
+      "id": "drama3-extra-gasp",
+      "name_zh": "发声 · 惊讶吸气",
+      "name_en": "Vocal event · gasp",
+      "category": "event"
+    },
+    {
+      "id": "drama3-extra-throat",
+      "name_zh": "发声 · 清嗓子",
+      "name_en": "Vocal event · clear throat",
+      "category": "event"
+    },
+    {
+      "id": "drama3-extra-cough",
+      "name_zh": "发声 · 咳嗽",
+      "name_en": "Vocal event · cough",
+      "category": "event"
+    },
+    {
+      "id": "drama3-extra-emphasis",
+      "name_zh": "局部控制 · 强调关键词",
+      "name_en": "Scoped control · emphasis",
+      "category": "scope"
+    },
+    {
+      "id": "drama3-extra-laugh-middle",
+      "name_zh": "发声 · 句中笑声",
+      "name_en": "Vocal event · mid-sentence laugh",
+      "category": "event"
+    },
+    {
+      "id": "drama3-extra-director-comfort",
+      "name_zh": "组合 · 安慰与慢速",
+      "name_en": "Combined · comforting and slow",
+      "category": "combination"
+    },
+    {
+      "id": "drama3-extra-dialogue-natural",
+      "name_zh": "双人对话 · 日常问答",
+      "name_en": "Dialogue · everyday Q&A",
+      "category": "dialogue"
+    },
+    {
+      "id": "drama3-extra-dialogue-reunion",
+      "name_zh": "双人对话 · 兴奋重逢",
+      "name_en": "Dialogue · excited reunion",
+      "category": "dialogue"
+    },
+    {
+      "id": "drama3-extra-dialogue-secret",
+      "name_zh": "双人对话 · 低声秘密",
+      "name_en": "Dialogue · whispered secret",
+      "category": "dialogue"
+    },
+    {
+      "id": "drama3-extra-dialogue-reconcile",
+      "name_zh": "双人对话 · 分歧与和解",
+      "name_en": "Dialogue · disagreement and repair",
+      "category": "dialogue"
+    },
+    {
+      "id": "drama3-extra-dialogue-interview",
+      "name_zh": "双人对话 · 主持人访谈",
+      "name_en": "Dialogue · interview",
+      "category": "dialogue"
+    },
+    {
+      "id": "drama3-extra-dialogue-together",
+      "name_zh": "双人对话 · 整段联合生成",
+      "name_en": "Dialogue · together mode",
+      "category": "dialogue"
+    }
+  ]
+}

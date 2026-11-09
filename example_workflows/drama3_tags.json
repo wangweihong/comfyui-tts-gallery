@@ -1,5 +1,5 @@
 {
-  "id": "ce601bdc-6ba3-4098-9810-59c1be59f8dd",
+  "id": "cdfc2184-8ddf-4544-965e-3a1cc89831a8",
   "revision": 0,
   "version": 0.4,
   "last_node_id": 40,
@@ -219,7 +219,7 @@
     {
       "id": 12,
       "type": "Drama3EncodeVoice",
-      "title": "Drama3EncodeVoice - 编码所选参考声音",
+      "title": "Drama3EncodeVoice - 编码角色0的参考声音",
       "pos": [
         1310,
         650
@@ -445,7 +445,7 @@
       "outputs": [],
       "properties": {},
       "widgets_values": [
-        "局部耳语 · 火辣大厨\n模型: drama3 / tags\n修改最左侧文案和参数后手动运行。切换示例请从图库重新打开完整配置。\n示例音频是生成结果，音色参考是克隆输入；不要混接。\n固定种子便于比较，不保证跨版本逐位一致；音色相似度与表达效果需要试听判断。\n\n模型用法来源: https://github.com/PedroMarinhoDev/ComfyUI-Drama3\n素材来源: Generated locally for TTS Gallery; https://github.com/PedroMarinhoDev/ComfyUI-Drama3\n参考编号: drama3-chef-scoped\n验证状态: {\"execution\": \"success\", \"transcript\": \"asr_checked\", \"listening\": \"unreviewed\"}"
+        "局部耳语 · 火辣大厨\n模型: drama3 / tags\n修改最左侧文案和参数后手动运行。切换示例请从图库重新打开完整配置。\n示例音频是生成结果，音色参考是克隆输入；不要混接。\n固定种子便于比较，不保证跨版本逐位一致；音色相似度与表达效果需要试听判断。\n\n模型用法来源: https://github.com/PedroMarinhoDev/ComfyUI-Drama3\n模型说明: https://huggingface.co/fishaudio/drama-3\n素材来源: Generated locally for TTS Gallery; https://github.com/PedroMarinhoDev/ComfyUI-Drama3\n参考编号: drama3-chef-scoped\n验证状态: {\"execution\": \"success\", \"transcript\": \"asr_checked\", \"listening\": \"unreviewed\"}"
       ]
     }
   ],

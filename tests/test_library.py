@@ -93,7 +93,7 @@ class LibraryTests(unittest.TestCase):
 
     def test_all_bundled_assets_hash_and_decode(self):
         rows = self.lib.catalog()['records']
-        self.assertEqual(sum(r['kind'] == 'voice' for r in rows), 1)
+        self.assertEqual({r['id'] for r in rows if r['kind']=='voice'}, {'huola-dachu','warm-female-zh'})
         self.assertEqual({r.get('model') for r in rows if r['kind'] == 'example'}, {'breeze', 'drama3'})
         for row in rows:
             with self.subTest(id=row['id']):

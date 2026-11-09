@@ -7,6 +7,8 @@ const target = ['example', 'voice'].includes(params.get('target')) ? params.get(
 const embedded = window.parent !== window;
 const token = params.get('token');
 const filters = { kind: params.get('kind') === 'voice' || target === 'voice' ? 'voice' : 'example', q: '' };
+let expansion = null;
+const extensionRoot = root.replace(/\/tts_gallery$/, '') + '/extensions/comfyui-tts-gallery';
 let records = [], selected = null, editing = null, playing = null, toastTimer;
 const player = $('player');
 const t = key => words[lang][key] || key;
@@ -54,7 +56,21 @@ function wave(row) {
   for (const value of row.waveform || []) { const bar = el('i'); bar.style.height = `${Math.max(3, Math.min(100, value * 100))}%`; box.append(bar); }
   return box;
 }
+function renderExpansion() {
+  const box = $('expansion-status'); box.replaceChildren();
+  box.hidden = !expansion || expansion.status === 'complete' || filters.kind !== 'example' || filters.model && filters.model !== 'drama3';
+  if (box.hidden) return;
+  const queued = expansion.status === 'queued';
+  const text = lang === 'zh' ? (queued ? `Drama3 新增 ${expansion.total} 条扩展已排在现有任务之后，尚未入库试听。` : `Drama3 已新增 ${expansion.completed} 条，${expansion.failed} 条生成失败，未用其他音频替代。`) : (queued ? `${expansion.total} new Drama3 examples are queued after the existing jobs. Their audio is not available yet.` : `${expansion.completed} Drama3 examples added; ${expansion.failed} generations failed. No substitute audio is used.`);
+  box.append(el('p', '', text));
+  const details = el('details'); details.append(el('summary', '', lang === 'zh' ? '查看扩展示例清单' : 'See the expansion list'));
+  const list = el('ul'); for (const row of expansion.recipes) list.append(el('li', '', local(row, 'name', lang)));
+  details.append(list); box.append(details);
+  const link = el('a', '', lang === 'zh' ? '下载双人对话工作流（可直接导入使用） ↗' : 'Download the two-speaker workflow (ready to import) ↗');
+  link.href = extensionRoot + '/templates/drama3_dialogue.json'; link.download = 'drama3_dialogue.json'; box.append(link);
+}
 function renderCards() {
+  renderExpansion();
   const rows = records.filter(row => matches(row, filters));
   $('examples').setAttribute('aria-selected', String(filters.kind === 'example'));
   $('voices').setAttribute('aria-selected', String(filters.kind === 'voice'));
@@ -120,6 +136,10 @@ function renderDetail(row) {
   }
   const grid = el('div', 'detail-grid'); const left = el('div'); const right = el('div');
   left.append(section(row.kind === 'voice' ? 'transcript' : 'text', row.reference_text || row.text));
+  if (row.voice_ids) {
+    const cast = Object.entries(row.voice_ids).map(([slot, id]) => { const voice = records.find(item => item.id === id); return `<|speaker:${slot.replace('voice', '')}|> → ${voice ? local(voice, 'name', lang) : id} (${id})`; }).join('\n');
+    left.append(section('cast', cast));
+  }
   if (row.kind === 'example') { left.append(section('instruction', row.instruction || '')); right.append(section('parameters', JSON.stringify(row.parameters, null, 2), true)); }
   const provenance = el('section', 'field'); provenance.append(el('h3', '', t('source')), el('pre', '', row.source || '—'));
   const validation = el('div', 'validation'); validation.append(el('h3', '', t('validation')));
@@ -189,4 +209,6 @@ window.addEventListener('pagehide', () => player.pause());
 if (embedded) document.body.classList.add('embedded');
 for (let i = 0; i < 49; i++) { const bar = el('i'); bar.style.height = `${12 + Math.sin(i * .72) ** 2 * 40 + Math.sin(i * .28) ** 2 * 24}px`; document.querySelector('.hero-wave').append(bar); }
 applyLanguage(); $('empty').hidden = false; $('empty').textContent = t('loading');
-try { await refresh(); send('tts-gallery-ready'); } catch (error) { $('empty').hidden = false; $('empty').textContent = error.message; }
+try {
+  try { const response = await fetch(extensionRoot + '/expansion.json', { cache: 'no-store' }); if (response.ok) expansion = await response.json(); } catch {}
+  await refresh(); send('tts-gallery-ready'); } catch (error) { $('empty').hidden = false; $('empty').textContent = error.message; }

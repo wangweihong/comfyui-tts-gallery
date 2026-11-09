@@ -1,5 +1,5 @@
 {
-  "id": "190593fb-8c26-4631-9b2a-3b9a9aa9972e",
+  "id": "3f3fcbed-86a8-4898-94a7-1fc0e53c07bb",
   "revision": 0,
   "version": 0.4,
   "last_node_id": 40,
@@ -219,7 +219,7 @@
     {
       "id": 12,
       "type": "Drama3EncodeVoice",
-      "title": "Drama3EncodeVoice - 编码所选参考声音",
+      "title": "Drama3EncodeVoice - 编码角色0的参考声音",
       "pos": [
         1310,
         650
@@ -445,7 +445,7 @@
       "outputs": [],
       "properties": {},
       "widgets_values": [
-        "火辣大厨\n模型: drama3 / clone\n修改最左侧文案和参数后手动运行。切换示例请从图库重新打开完整配置。\n示例音频是生成结果，音色参考是克隆输入；不要混接。\n固定种子便于比较，不保证跨版本逐位一致；音色相似度与表达效果需要试听判断。\n\n模型用法来源: https://github.com/PedroMarinhoDev/ComfyUI-Drama3\n素材来源: User-owned synthetic voice, designed with Breeze TTS 2 on 2026-10-29; frozen reference SHA-256 29c7b2b6deded123a21a0f5115830056dee3e40cfc858c01c5502069fb82c9b2\n参考编号: huola-dachu\n验证状态: {\"execution\": \"decoded\", \"transcript\": \"source_transcript\", \"listening\": \"unreviewed\"}"
+        "火辣大厨\n模型: drama3 / clone\n修改最左侧文案和参数后手动运行。切换示例请从图库重新打开完整配置。\n示例音频是生成结果，音色参考是克隆输入；不要混接。\n固定种子便于比较，不保证跨版本逐位一致；音色相似度与表达效果需要试听判断。\n\n模型用法来源: https://github.com/PedroMarinhoDev/ComfyUI-Drama3\n模型说明: https://huggingface.co/fishaudio/drama-3\n素材来源: User-owned synthetic voice, designed with Breeze TTS 2 on 2026-10-29; frozen reference SHA-256 29c7b2b6deded123a21a0f5115830056dee3e40cfc858c01c5502069fb82c9b2\n参考编号: huola-dachu\n验证状态: {\"execution\": \"decoded\", \"transcript\": \"source_transcript\", \"listening\": \"unreviewed\"}"
       ]
     }
   ],
